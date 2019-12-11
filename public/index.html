@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Taco Villa SD</title>
+  <title>Taco Villa</title>
   <link rel="icon" type="image/png" href="assets/favicon.png">
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300|Barlow:300|Italiana|Lato:100,300,400|Oswald:300,400|Roboto+Condensed:300,400,700|Roboto:100,300,400&display=swap" rel="stylesheet">        
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom">
+    <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light"> -->
         <a class="navbar-brand" href="#">
             <img src="assets/logo_transparent.png" width="26" height="36" alt="">
         </a>
@@ -23,24 +24,357 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item text-center px-5">
-                    <a class="nav-link" href="#">MENU</a>
+                    <a class="nav-link" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item text-center px-5">
-                    <a class="nav-link" href="#">CATERING</a>
+                    <a class="nav-link" href="#menu-section">MENU</a>
                 </li>
                 <li class="nav-item text-center px-5">
-                    <a class="nav-link" href="#">LOCATION</a>
+                    <a class="nav-link" href="#catering-section">CATERING</a>
                 </li>
                 <li class="nav-item text-center px-5">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#contact-section">CONTACT</a>
                 </li>
                 <li class="nav-item text-center px-5">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="#about-section">ABOUT</a>
                 </li>
             </ul>
         </div>
     </nav>
     
+<!-- MAIN HOMEPAGE -->
+    <div class="background-image">
+        <!-- <h1 id="title-1">TACO VILLA</h1> -->
+        <p class="title">
+            <span id="title1">TACO</span>
+            <span id="title2">VILLA</span>
+        </p>
+        <h5>AUTHENTIC MEXICAN FOOD</h5>
+        <h6>EST. 2016</h6>
+    </div>
+    <!-- Empty div with menu-section id so "Menu" in navbar goes the the correct location. -->
+    <div id="menu-section"></div> 
+    <div class="container main-body">
+        <div class="row">
+            <div class="col-md-12">
+<!-- MENU SECTION -->
+                <div class="menu-section">
+                    <div class="section-heading">
+                        <h1><span>MENU</span></h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h2>BURRITOS</h2>
+                            <h6>Whole Wheat Tortillas or Bowl Available Upon Request</h6>
+                            <div class="menu-item">
+                                <p class="item">Bean, <em>$3.99</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Bean & Cheese, <em>$4.99</em></p>
+                                <p class="item-description">Cheddar or Monterey Cheese</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Shredded Beef, <em>$4.99</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Chicken, <em>$4.99</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Carnitas, <em>$5.99</em></p>
+                                <p class="item-description">Grilled Pork, Guacamole, Pico</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Al Pastor, <em>$6.99</em></p>
+                                <p class="item-description">Grilled Seasoned Pork, Whole Beans, Onion, Cilantro, Guacamole</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Pollo Asado, <em>$5.99</em></p>
+                                <p class="item-description">Grilled Chicken, Guacamole, Pico</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Chili Verde, <em>$5.99</em></p>
+                                <p class="item-description">Tender Pork Sautéed in Green Salasa & Beans</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Veggie Avocado, <em>$5.99</em></p>
+                                <p class="item-description">Freshly Seasoned Avocado, Rice, Whole Beans, Lettuce, Pico</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Fish, <em>$5.99</em></p>
+                                <p class="item-description">Fish, White Sauce, Cabbage, Pico</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Carne Asada, <em>$6.99</em></p>
+                                <p class="item-description">Carne Asada, Guacamole, Pico</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">California, <em>$6.99</em></p>
+                                <p class="item-description">Carne Asada, French Fries, Cheddar Cheese, Crema</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Tejano, <em>$7.99</em></p>
+                                <p class="item-description">Shredded Chicken, Cheddar Cheese, Crema</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Shrimp, <em>$7.99</em></p>
+                                <p class="item-description">Grilled Shrimp, Rice, Grilled Onions, Cheese, White Sauce</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Olympian, <em>$7.99</em></p>
+                                <p class="item-description">(On Whole Wheat Tortilla)<br>Carne Asada, Grilled Chicken, Whole Beans, Cheese, Lettuce</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">The Crunch, <em>$8.99</em></p>
+                                <p class="item-description">Shredded Beef, 2 Rolled, Tacos, Lettuce, Guacamole</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Surf & Turf, <em>$8.99</em></p>
+                                <p class="item-description">Carne Asada, Shrimp, Rice, Monterey Jack, White or Chiptole Sauce</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Triton, <em>$8.99</em></p>
+                                <p class="item-description">Grilled Fish, Shrimp, Grilled Red Onions, Bell Pepper, Rice, White Sauce</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 center-column">
+                            <h2>QUESADILLAS</h2>
+                            <br>
+                            <div class="menu-item">
+                                <p class="item">Cheddar or Monterey Jack, <em>$4.29</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Mulitas, <em>$5.99</em></p>
+                                <p class="item-description">(Served in between two homemade corn tortillas)<br>Choice of Meat or Veggies, Onions, Cilantro, Guacamole</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Triton Quesadilla, <em>$6.99</em></p>
+                                <p class="item-description">Choice of any Meat or Chicken, Cheddar Cheese, Guacamole, Pico</p>
+                            </div>
+                            <h2>CHIPS & FRIES</h2>
+                            <br>
+                            <div class="menu-item">
+                                <p class="item">Chips or French Fries, <em>$2.50(large)/$4.50(larger)</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Carne Asada Chips or Fries, <em>$7(large)/$10(larger)</em></p>
+                                <p class="item-description">Guacamole, Crema, Cheddar & Cotija Cheese</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Al Pastor Chips or Fries, <em>$7(large)/$10(larger)</em></p>
+                                <p class="item-description">Guacamole, Crema, Cheddar & Cotija Cheese</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Surf and Turf Chips or Fries, <em>$10(large)/$13(larger)</em></p>
+                                <p class="item-description">Grilled Shrimp and Carne Asada, Guacamole, Cream, Cheddar Cheese & Cotija Cheese</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Triton Chips, <em>$10(large)/$13(larger)</em></p>
+                                <p class="item-description">Carne Asada, Beans, Bacon, Monterey Jack, Cheddar & Cotija Cheese</p>
+                            </div>
+                            <h2>COMBOS</h2>
+                            <br>
+                            <div class="menu-item">
+                                <p class="item">Two Tacos, <em>$6.99</em></p>
+                                <p class="item-description">Shredded Beef or Chicken</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Meat Plate, <em>$7.99</em></p>
+                                <p class="item-description">Choice of any Grilled Meat, Pork, or Chicken & Side of Tortillas</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Chile Verde, <em>$8.99</em></p>
+                                <p class="item-description">Tender Pork Sauteed in Green Salsa, Beans & Side of Tortillas</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Two Avocado Tacos, <em>$7.99</em></p>
+                                <p class="item-description">Fresh Avocado, Lettuce, Pico, Sliced Jalapeño</p>
+                            </div>
+                            <h2>ROLLED TACOS</h2>
+                            <br>
+                            <div class="menu-item">
+                                <p class="item">3 Rolled Tacos/5 Rolled Tacos, <em>$2.99/$4.99</em></p>
+                                <p class="item-description">(with Cotija Cheese)<br>Add Guacamole +$0.99</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Super Rolls, <em>$7.99</em></p>
+                                <p class="item-description">5 Rolled Tacos Topped with Lettuce, Guacamole, Crema, Pico, Cheddar Cheese and Cotija Cheese</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h2>TACOS</h2>
+                            <h6>Served in FRESH homemade tortillas </h6>
+                            <div class="menu-item">
+                                <p class="item">Fish, <em>$1.99</em></p>
+                                <p class="item-description">Battered Fish, White Sauce, Cabbage, Pico</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Crunchy (Beef or Chicken), <em>$2.99</em></p>
+                                <p class="item-description">Lettuce, Cotija Cheese</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Potato Taco, <em>$2.99</em></p>
+                                <p class="item-description">Lettuce, Cotija Cheese</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Pollo Asado, <em>$3.29</em></p>
+                                <p class="item-description">Guacamole, Onions, Cilantro</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Avocado, <em>$3.29</em></p>
+                                <p class="item-description">Freshly Sliced Avocado, Lettuce, Sliced Jalapeño</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Al Pastor, <em>$3.29</em></p>
+                                <p class="item-description">Guacamole, Onions, Cilantro</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Carne Asada, <em>$3.29</em></p>
+                                <p class="item-description">Guacamole, Onions, Cilantro</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Carnitas, <em>$3.99</em></p>
+                                <p class="item-description">Pork, Onions, Cilantro, Guacamole</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Especial, <em>$3.99</em></p>
+                                <p class="item-description">Carne Asada, Bacon, Monterey Jack Cheese, Guacamole, Cilantro, Cotija Cheese</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Shrimp, <em>$3.99</em></p>
+                                <p class="item-description">Grilled Shrimp, Sauteed Onions and Bell Peppers, Guacmole, White or Chipotle Sauce</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Queso, <em>$3.99</em></p>
+                                <p class="item-description">Carne Asada, Grilled Monterey Jack Cheese, Guacamole, Onions & Cilantro, White or Chiptole Sauce</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Surf and Turf, <em>$5.39</em></p>
+                                <p class="item-description">Carne Asada, Shrimp, Monterey Jack Cheese, Chipotle</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">California Taco, <em>$5.39</em></p>
+                                <p class="item-description">Carne Asada, Fries, Cheddar Cheese, Crema</p>
+                            </div>
+                            <h2>SIDE ORDERS</h2>
+                            <br>
+                            <div class="menu-item">
+                                <p class="item">Rice, <em>$1.99</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Beans, <em>$1.99</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Crema, <em>$2.29</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Guacamole, <em>$2.29</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Pico de Gallo, <em>$1.79</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Jalapeños & Carrots, <em>$1.79</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Cheese, <em>$1.79</em></p>
+                                <p class="item-description">(4 oz. of Cheddar, Monterey, or Cotija)</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Bacon Wrapped Stuffed Jalapeño, <em>$1.59</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">2 Flour Tortillas, <em>$1.29</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">3 Corn Tortillas, <em>$1.29</em></p>
+                            </div>
+                            <h2>DRINKS</h2>
+                            <h6>Coca-Cola Products ● Homemade Agua Fresca</h6>
+                            <div class="menu-item">
+                                <p class="item">Soft Drink, <em>$2.59</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Bottled Drinks, <em>$2.59</em></p>
+                            </div>
+                            <h2>EXTRAS</h2>
+                            <div class="menu-item">
+                                <p class="item">Pico de Gallo, <em>$0.79</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Cheese, <em>$0.79</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Guacamole, <em>$0.99</em></p>
+                            </div>
+                            <div class="menu-item">
+                                <p class="item">Crema, <em>$0.99</em></p>
+                            </div>
+                        </div>            
+                    </div>
+                </div>
+                <div id="catering-section"></div>
+
+<!-- CATERING SECTION -->
+                <div class="catering-section">
+                        <div class="section-heading">
+                            <h1><span>CATERING</span></h1>
+                        </div>
+                    <p>Please call [firstname] [lastname] at <a href="tel:000.000.0000">000.000.0000</a> for a copy of our catering menu!</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div id="contact-section"></div>
+<!-- CONTACT SECTION -->
+                <div class="contact-section">
+                    <div class="section-heading">
+                        <h1><span>CONTACT</span></h1>
+                    </div>
+                    <p>
+                        <a href="https://www.google.com/maps/dir//Atkinson+Hall,+9500+Gilman+Dr,+La+Jolla,+CA+92093/@32.882875,-117.2362448,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80dc06c3ab289115:0x729ac9ce585ae8ea!2m2!1d-117.2348172!2d32.8824069"
+                            target="_blank">
+                            9500 Gilman Dr
+                            <br>
+                            La Jolla, CA 92093
+                        </a>
+                    </p>
+                    <p><a href="tel:858-866-6399">858.866.6339</a></p>
+                    <p>We are located on the UCSD campus inside Student Center B, across from the Main Gym.
+                        <br>
+                        There are two parking lots close by: 
+                        <a href="https://goo.gl/maps/rK7F73UgXRbmGtpt5" target="_blank">Lot P502</a>
+                        and 
+                        <a href="https://goo.gl/maps/xdQapY5LH6UN2jV66" target="_blank">Lot P503.</a>
+                    </p>
+                </div>
+                <div id="about-section"></div>
+
+
+<!-- ABOUT SECTION -->
+                <div class="about-section">
+                        <div class="section-heading">
+                            <h1><span>ABOUT</span></h1>
+                        </div>
+                    <p>We prepare homemade tortillas for all of our tacos to order.<br>Quality ingredients is what separates
+                            us from our competitors.</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+
+
+<!-- FOOTER -->
+    <nav class="navbar bottom navbar-light bg-custom mx-auto footer">
+        <ul class="nav navbar-nav mx-auto">
+            <li class="nav-item">
+                Copyright &copy;
+                <script type="text/javascript"> document.write(new Date().getFullYear());</script>
+                Taco Villa
+                <br>
+                <!-- Website Designed by <a href="http://www.neehajacob.com">Neeha Jacob</a> -->
+            </li>
+        </ul>
+    </nav>
 
 
 <!-- JAVASCRIPT -->
