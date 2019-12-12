@@ -36,56 +36,26 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-.background-image .title{
-    color: white;
-    /* color: black; */
-    padding-top: 7%;
-    text-align: center;
-    font-size: 1000%;
-  }
-
-.background-image .title #title1{
-    font-weight: 400;
-  }
-
-.background-image .title #title2{
-    font-weight: 200;
-    margin-left: -2%;
 }
 
-.background-image h5{
-    color: white;
-    /* color: black; */
-    text-align: center;
-    font-size: 200%;
-    letter-spacing: .3rem;
-    margin-top: -3%;
-    font-weight: 400;
-}
-
-.background-image h6{
-    color: white;
-    /* color: black; */
-    text-align: center;
-    font-size: 150%;
-    letter-spacing: .1rem;
-    margin-top: 2%;
-    font-weight: 700;
+.background-image #logo{
+    width: 50%;
+    margin-top: 10%; 
 }
 
 .background-image .icons{
-    color: white;
-    color: black;
-    font-size: 250%;
+    font-size: 230%;
     text-align: center;
-    margin-top: 4%;
+    margin-top: 1%;
 }
 
 .background-image .icons .fab{
-    padding-left: 1%;
-    padding-right: 1%;
+    color: white;
+    /* color: black; */
+    padding-left: 2%;
+    padding-right: 2%;
+    /* border: 3px solid black;
+    background-color: black; */
 }
 
 /* SECTION HEADINGS */
