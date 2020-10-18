@@ -25,9 +25,10 @@ body, html {
     font-weight: 300;
 }
 
-/* .navbar ul li a:hover {
-    color: black!important;
-} */
+.navbar ul li a:hover {
+    color: rgb(164, 52, 46)!important;
+    font-weight: bold;
+}
 
 /* MAIN HOMEPAGE */
 .background-image{
@@ -58,9 +59,26 @@ body, html {
     text-align: center;
     max-width: 600px;
     position:relative;
-} 
+}
 
-.section-heading h1:before{
+.section-heading .hr-left{
+    display:inline-block; 
+    width:100px; 
+    margin-right: 3%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    background-color: black;
+}
+.section-heading .hr-right{
+    display:inline-block; 
+    width:100px; 
+    margin-left: 3%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    background-color: black;
+}
+
+/* .section-heading h1:before{
     content: "";
     display:block;
     width: 180px;
@@ -70,9 +88,9 @@ body, html {
     left: 0;
     top: 50%;
     z-index: -2;
-}
+} */
 
-.section-heading h1:after{
+/* .section-heading h1:after{
     content: "";
     display:block;
     width: 180px;
@@ -82,11 +100,11 @@ body, html {
     right: 0;
     top: 50%;
     z-index: -2;
-    }
+    } */
 
-.section-heading span{
+/* .section-heading span{
     background: #fff
-}
+} */
 
 /* MENU SECTION */
 .menu-section h2{
@@ -98,7 +116,6 @@ body, html {
 
 .menu-section h6{
     text-align: center;
-    margin-bottom: 6%;
 }
 
 .menu-section .menu-item {
@@ -113,6 +130,12 @@ body, html {
 .menu-section .item-description{
     margin-top: -1%;
     font-size: 105%;
+}
+
+.menu-section .menu-description{
+    text-align: center; 
+    margin-top: -5%; 
+    margin-bottom: 8%;
 }
 
 /* CATERING SECTION */
@@ -162,17 +185,53 @@ body, html {
 }
 
 /* MEDIA QUERIES */
-/* @media only screen and (max-width: 450px){
-    .background-image #logo{
-        margin-top: 14vh;
-        height: 80vh;
-        width: auto;
+
+@media only screen and (max-width: 768px){
+    .section-heading h1 {
+        font-size: 400%;
+    }
+    .section-heading .hr-left, .section-heading .hr-right{
+        width:60px;
+        margin-bottom: 4%;
+    }
+    .menu-section h2{
+        font-size: 200%;
     }
 }
-@media only screen and (max-width: 400px){
-    .background-image #logo{
-        margin-top: 14vh;
-        height: 70vh;
-        width: auto;
+
+@media only screen and (max-width: 580px){
+    .section-heading h1 {
+        font-size: 300%;
     }
-} */
+    .section-heading .hr-left, .section-heading .hr-right{
+        margin-bottom: 4%;
+    }
+    .menu-section h2{
+        font-size: 150%;
+    }
+    .catering-section p, .contact-section p, .about-section p{
+        font-size: 180%;
+    }
+    .menu-section .item{
+        font-size: 120%;
+    }
+    .menu-section .item-description{
+        font-size: 100%;
+    }
+    .menu-description{
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .section-heading .hr-left, .section-heading .hr-right{
+        margin-bottom: 8%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .section-heading .hr-left, .section-heading .hr-right{
+        width:40px;
+        margin-bottom: 8%;
+    }
+}
