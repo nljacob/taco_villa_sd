@@ -3,6 +3,7 @@
     font-weight: 300;
 }
 
+
 a{
     color: black;
 }
@@ -17,6 +18,10 @@ body, html {
     background-color: black;
 }
 
+#navbarSupportedContent > ul > li.nav-item.dropdown.px-5.show > div{
+    background-color: black;
+}
+
 .navbar ul li a {
     color: black;
     color: white !important;
@@ -28,6 +33,63 @@ body, html {
 .navbar ul li a:hover {
     color: rgb(164, 52, 46)!important;
     font-weight: bold;
+}
+
+/* added to make navbar link go to correct place */
+#burritos {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+#tacos {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+#quesadillas{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+#rolledtacos{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+#combos{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+#chipsandfries{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+#sideorders{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+#drinks{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+#breakfastburritos{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+#breakfastcombos{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+#catering-section{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+#contact-section{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+#about-section{
+    padding-top: 70px;
+    margin-top: -70px;
 }
 
 /* MAIN HOMEPAGE */

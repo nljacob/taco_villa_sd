@@ -20,19 +20,33 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
-                <li class="nav-item text-center px-5">
+                <li class="nav-item px-5">
                     <a class="nav-link" href="#">HOME</a>
                 </li>
-                <li class="nav-item text-center px-5">
-                    <a class="nav-link" href="#menu-section">MENU</a>
-                </li>
-                <li class="nav-item text-center px-5">
+                <li class="nav-item dropdown px-5">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MENU
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#burritos">BURRITOS</a>
+                        <a class="dropdown-item" href="#tacos">TACOS</a>
+                        <a class="dropdown-item" href="#quesadillas">QUESADILLAS</a>
+                        <a class="dropdown-item" href="#rolledtacos">ROLLED TACOS</a>
+                        <a class="dropdown-item" href="#combos">COMBOS</a>
+                        <a class="dropdown-item" href="#chipsandfries">CHIPS & FRIES</a>
+                        <a class="dropdown-item" href="#sideorders">SIDE ORDERS</a>
+                        <a class="dropdown-item" href="#drinks">DRINKS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#breakfastburritos">BREAKFAST BURRITOS</a>
+                        <a class="dropdown-item" href="#breakfastcombos">BREAKFAST COMBOS</a>
+                      </div>                </li>
+                <li class="nav-item px-5">
                     <a class="nav-link" href="#catering-section">CATERING</a>
                 </li>
-                <li class="nav-item text-center px-5">
+                <li class="nav-item px-5">
                     <a class="nav-link" href="#contact-section">CONTACT</a>
                 </li>
-                <li class="nav-item text-center px-5">
+                <li class="nav-item px-5">
                     <a class="nav-link" href="#about-section">ABOUT</a>
                 </li>
             </ul>
@@ -67,7 +81,9 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <!-- BURRITO SECTION -->
-                            <div class="section-title"><h2>BURRITOS</h2></div>
+                            <div class="section-title">
+                                <h2 id="burritos">BURRITOS</h2>
+                            </div>
                             <br>
                             <div class="menu-item">
                                 <p class="item">Bean, <em>$4.39</em></p>
@@ -131,7 +147,9 @@
                             <br>
                             
                             <!-- CHIPS & FRIES SECTION -->                            
-                            <div class="section-title"><h2>CHIPS & FRIES</h2></div>
+                            <div class="section-title">
+                                <h2 id="chipsandfries">CHIPS & FRIES</h2>
+                            </div>
                             <br>
                             <div class="menu-item">
                                 <p class="item">Chips or Fries, <em>$2.69 (half)/$4.99 (full)</em></p>
@@ -155,7 +173,9 @@
                             <br>
 
                             <!-- QUESADILLAS SECTION -->                            
-                            <div class="section-title"><h2>QUESADILLAS</h2></div>
+                            <div class="section-title">
+                                <h2 id="quesadillas">QUESADILLAS</h2>
+                            </div>
                             <br>
                             <div class="menu-item">
                                 <p class="item">Cheddar or Monterey Jack, <em>$4.69</em></p>
@@ -173,7 +193,7 @@
                             <!-- DRINKS SECTION -->
                             <br>
                             <div class="section-title">
-                                <h2>DRINKS</h2>
+                                <h2 id="drinks">DRINKS</h2>
                                 <h6>Coca-Cola Products ● Homemade Agua Fresca</h6>
                             </div>
                             <br>
@@ -182,15 +202,14 @@
                             </div>
                             <div class="menu-item">
                                 <p class="item">Bottled Water, <em>$1.09</em></p>
-                            </div>                          
+                            </div>                   
                         </div>
 
-
+                        
                         <div class="col-sm-6">
-
                             <!-- TACO SECTION -->
                             <div class="section-title">
-                                <h2>TACOS</h2>
+                                <h2 id="tacos">TACOS</h2>
                                 <h6>Served in FRESH homemade tortillas</h6>
                                 <h6>*Taco Tuesday Special</h6>
                             </div>
@@ -247,7 +266,7 @@
 
                             <!-- COMBOS SECTION -->
                             <div class="section-title">
-                                <h2>COMBOS</h2>
+                                <h2 id="combos">COMBOS</h2>
                                 <h6>Combinations include a side of Rice and Beans</h6>
                             </div>
                             <br>
@@ -267,7 +286,7 @@
 
                             <!-- ROLLED TACOS SECTION -->
                             <div class="section-title">
-                                <h2>ROLLED TACOS</h2>
+                                <h2 id="rolledtacos">ROLLED TACOS</h2>
                                 <h6>(Chicken, Beef or Potato)</h6>
                             </div>
                             <br>
@@ -282,7 +301,9 @@
                             <br>
 
                             <!-- SIDE ORDERS SECTION -->
-                            <div class="section-title"><h2>SIDE ORDERS</h2></div>
+                            <div class="section-title">
+                                <h2 id="sideorders">SIDE ORDERS</h2>
+                            </div>
                             <br>
                             <div class="menu-item">
                                 <p class="item">Rice or Beans, <em>$2.19</em></p>
@@ -316,7 +337,9 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <div class="section-title"><h2>BREAKFAST BURRITOS</h2></div>
+                            <div class="section-title">
+                                <h2 id="breakfastburritos">BREAKFAST BURRITOS</h2>
+                            </div>
                             <br>
                             <div class="menu-item">
                                 <p class="item">Machaca, <em>$5.49</em></p>
@@ -346,7 +369,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <h2>BREAKFAST COMBOS</h2>
+                            <h2 id="breakfastcombos">BREAKFAST COMBOS</h2>
                             <h6>Combinations served with Rice, Beans, & Choice of Corn or Flour Tortillas</h6>
                             <br>
                             <div class="menu-item">
@@ -368,7 +391,6 @@
                                 <p class="item">Huevos Rancheros, <em>$7.69</em></p>
                                 <p class="item-description">Two Eggs, Salsa Ranchero</p>
                             </div>
-                            <div id="catering-section"></div>
                             <div class="menu-item">
                                 <p class="item">Bistek Ranchero, <em>$9.89</em></p>
                                 <p class="item-description">Carne Asada, Onions, Bell Pepper, Nopales, Tomatoes, 2 Fried Eggs</p>
@@ -379,17 +401,16 @@
 <!-- MENU SECTION END -->
 
 <!-- CATERING SECTION START -->
-                <div class="catering-section">
+                <div class="catering-section" id="catering-section">
                     <div class="section-heading">
                         <h1><hr class="hr-left"/>CATERING<hr class="hr-right"/></h1>
                     </div>
-                    <div id="contact-section"></div>
                     <p>Please call <a href="tel:858-866-6339">858.866.6339</a> to book your next catering event!</p>
                 </div>
 <!-- CATERING SECTION END -->
             
 <!-- CONTACT SECTION START-->
-                <div class="contact-section">
+                <div class="contact-section" id="contact-section">
                     <div class="section-heading">
                         <h1><hr class="hr-left"/>CONTACT<hr class="hr-right"/></h1>
                     </div>
@@ -406,11 +427,10 @@
                         <br>
                     </p>
                 </div>
-                <div id="about-section"></div>
 <!-- CONTACT SECTION END-->
         
 <!-- ABOUT SECTION START-->
-                <div class="about-section">
+                <div class="about-section" id="about-section">
                     <div class="section-heading">
                         <h1><hr class="hr-left"/>ABOUT<hr class="hr-right"/></h1>
                     </div>
