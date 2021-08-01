@@ -221,6 +221,11 @@ body, html {
     text-decoration: underline;
 }
 
+.catering-section a:hover{
+    color: rgb(164, 52, 46)!important;
+    font-weight: bold;
+}
+
 /* CONTACT SECTION */
 .contact-section p{
     text-align: center;
@@ -229,6 +234,11 @@ body, html {
 
 .contact-section a{
     text-decoration: underline;
+}
+
+.contact-section a:hover{
+    color: rgb(164, 52, 46)!important;
+    font-weight: bold;
 }
 
 /* ABOUT SECTION */
