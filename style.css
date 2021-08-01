@@ -113,6 +113,16 @@ body, html {
     margin-top: 1%;
 }
 
+.background-image #order-here-button{
+    margin-top: 8%;
+    height: 10%;
+}
+
+.background-image button a:hover{
+    color: black;
+    font-weight: bold;
+}
+
 /* SECTION HEADINGS */
 .section-heading h1 {
     font-size: 500%;
