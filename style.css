@@ -103,20 +103,15 @@ body, html {
 }
 
 .background-image #logo{
-    margin-top: 14vh;
-    max-height: 70%;
+    margin-top: 12vh;
+    height: 65vh;
     width: auto;
 }
 
-.background-image .icons{
-    font-size: 230%;
-    text-align: center;
-    margin-top: 1%;
-}
-
 .background-image #order-here-button{
-    margin-top: 8%;
-    height: 10%;
+    margin-top: 6vh;
+    height: 10vh;
+    width: auto;
 }
 
 .background-image button a:hover{
