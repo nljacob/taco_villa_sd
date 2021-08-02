@@ -264,6 +264,17 @@ body, html {
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 1024px){
+    #logo{
+        height: 55%!important;
+        width: auto!important;
+    }
+    #order-here-button{
+        height: 10%!important;
+    }
+}
+
+
 @media only screen and (max-width: 768px){
     .section-heading h1 {
         font-size: 400%;
@@ -306,6 +317,13 @@ body, html {
     .menu-description{
         font-size: 110%;
     }
+    #logo{
+        height: 45%!important;
+        width: auto!important;
+    }
+    #order-here-button{
+        height: 8%!important;
+    }
 }
 
 @media only screen and (max-width: 450px){
@@ -324,6 +342,13 @@ body, html {
     .footer{
         padding-top: 5%;
         padding-bottom: 4%;
+    }
+    #logo{
+        height: 45%!important;
+        width: auto!important;
+    }
+    #order-here-button{
+        height: 10%!important;
     }
  
 }
