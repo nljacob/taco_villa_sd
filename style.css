@@ -369,6 +369,13 @@ body, html {
     .about-section p{
         font-size: 150%;
     }
+    #logo{
+        height: 45%!important;
+        width: auto!important;
+    }
+    #order-here-button{
+        height: 10%!important;
+    }
 }
 
 
