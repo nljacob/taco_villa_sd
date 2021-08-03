@@ -114,6 +114,15 @@ body, html {
     margin-top: 1%;
 }
 
+.background-image #order-link{
+    margin-top: 3vh;
+}
+
+#order-button{
+    max-height: 40%;
+    text-align: center;
+}
+
 /* SECTION HEADINGS */
 .section-heading h1 {
     font-size: 500%;
