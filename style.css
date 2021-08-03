@@ -119,8 +119,8 @@ body, html {
 }
 
 #order-button{
-    max-height: 40%;
-    text-align: center;
+    height: 90px;
+    width: auto;
 }
 
 /* SECTION HEADINGS */
@@ -273,6 +273,10 @@ body, html {
         padding-top: 4%;
         padding-bottom: 3%;
     }
+    #order-button{
+        height: 70px;
+        width: auto;
+    }
 }
 
 @media only screen and (max-width: 580px){
@@ -315,6 +319,10 @@ body, html {
     .footer{
         padding-top: 5%;
         padding-bottom: 4%;
+    }
+    #order-button{
+        height: 60px;
+        width: auto;
     }
  
 }
