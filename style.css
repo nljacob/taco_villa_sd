@@ -1,46 +1,56 @@
 * {
-    /* font-family: 'Oswald', sans-serif; */
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
     font-weight: 300;
 }
+
+
 a{
     color: black;
 }
+
 body, html {
     font-size: 100%;
     height: 100%;
 }
+
 /* NAVBAR */
 .bg-custom{
     background-color: black;
 }
+
 #navbarSupportedContent > ul > li.nav-item.dropdown.px-5.show > div{
     background-color: black;
 }
+
 .navbar ul li a {
     color: black;
     color: white !important;
-    font-size: 140%;
+    font-size: 105%;
     letter-spacing: .3rem;
     font-weight: 300;
 }
+
 .navbar ul li a:hover {
     color: rgb(164, 52, 46)!important;
     font-weight: bold;
 }
+
 /* added to make navbar link go to correct place */
 #burritos {
     padding-top: 70px;
     margin-top: -70px;
 }
+
 #tacos {
     padding-top: 70px;
     margin-top: -70px;
 }
+
 #quesadillas{
     padding-top: 70px;
     margin-top: -70px;
 }
+
 #rolledtacos{
     padding-top: 70px;
     margin-top: -70px;
@@ -81,6 +91,7 @@ body, html {
     padding-top: 70px;
     margin-top: -70px;
 }
+
 /* MAIN HOMEPAGE */
 .background-image{
     background-image: url("assets/home_page.png");
@@ -89,20 +100,19 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .background-image #logo{
-    margin-top: 12vh;
-    height: 65vh;
+    margin-top: 14vh;
+    max-height: 70%;
     width: auto;
 }
-.background-image #order-here-button{
-    margin-top: 6vh;
-    height: 10vh;
-    width: auto;
+
+.background-image .icons{
+    font-size: 230%;
+    text-align: center;
+    margin-top: 1%;
 }
-.background-image button a:hover{
-    color: black;
-    font-weight: bold;
-}
+
 /* SECTION HEADINGS */
 .section-heading h1 {
     font-size: 500%;
@@ -112,6 +122,7 @@ body, html {
     max-width: 600px;
     position:relative;
 }
+
 .section-heading .hr-left{
     display:inline-block; 
     width:100px; 
@@ -128,6 +139,7 @@ body, html {
     border: 1px solid black;
     background-color: black;
 }
+
 /* .section-heading h1:before{
     content: "";
     display:block;
@@ -139,6 +151,7 @@ body, html {
     top: 50%;
     z-index: -2;
 } */
+
 /* .section-heading h1:after{
     content: "";
     display:block;
@@ -150,9 +163,11 @@ body, html {
     top: 50%;
     z-index: -2;
     } */
+
 /* .section-heading span{
     background: #fff
 } */
+
 /* MENU SECTION */
 .menu-section h2{
     font-size: 250%;
@@ -160,54 +175,57 @@ body, html {
     margin-bottom: 2%;
     text-align: center;
 }
+
 .menu-section h6{
     text-align: center;
 }
+
 .menu-section .menu-item {
     margin-bottom: 6%;
 }
+
 .menu-section .item{
     margin-bottom: 0%;
     font-size: 140%;
 }
+
 .menu-section .item-description{
     margin-top: -1%;
     font-size: 105%;
 }
+
 .menu-section .menu-description{
     text-align: center; 
     margin-top: -5%; 
     margin-bottom: 8%;
 }
+
 /* CATERING SECTION */
 .catering-section p{
     text-align: center;
     font-size: 200%;
 }
+
 .catering-section a{
     text-decoration: underline;
 }
-.catering-section a:hover{
-    color: rgb(164, 52, 46)!important;
-    font-weight: bold;
-}
+
 /* CONTACT SECTION */
 .contact-section p{
     text-align: center;
     font-size: 200%;
 }
+
 .contact-section a{
     text-decoration: underline;
 }
-.contact-section a:hover{
-    color: rgb(164, 52, 46)!important;
-    font-weight: bold;
-}
+
 /* ABOUT SECTION */
 .about-section p{
     text-align: center;
     font-size: 200%;
 }
+
 /* FOOTER */
 .footer{
     padding-top: 3%;
@@ -216,25 +234,20 @@ body, html {
     color: white;
     letter-spacing: .1rem;
 }
+
 .footer .social-media-icons a i{
     font-size: 180%;
     text-align: center;
     margin: 0 6% 0 6%;
 }
+
 .footer ul li a{
     letter-spacing: 0.1rem;
     text-decoration: underline;
 }
+
 /* MEDIA QUERIES */
-@media only screen and (max-width: 1024px){
-    #logo{
-        height: 55%!important;
-        width: auto!important;
-    }
-    #order-here-button{
-        height: 10%!important;
-    }
-}
+
 @media only screen and (max-width: 768px){
     .section-heading h1 {
         font-size: 400%;
@@ -250,10 +263,8 @@ body, html {
         padding-top: 4%;
         padding-bottom: 3%;
     }
-    .background-image #order-here-button{
-        margin-top: 25%;
-    }
 }
+
 @media only screen and (max-width: 580px){
     .section-heading h1 {
         font-size: 300%;
@@ -276,14 +287,8 @@ body, html {
     .menu-description{
         font-size: 110%;
     }
-    #logo{
-        height: 45%!important;
-        width: auto!important;
-    }
-    #order-here-button{
-        height: 8%!important;
-    }
 }
+
 @media only screen and (max-width: 450px){
     .section-heading h1{
         font-size: 260%;
@@ -301,15 +306,9 @@ body, html {
         padding-top: 5%;
         padding-bottom: 4%;
     }
-    #logo{
-        height: 45%!important;
-        width: auto!important;
-    }
-    #order-here-button{
-        height: 10%!important;
-    }
  
 }
+
 @media only screen and (max-width: 380px){
     .section-heading .hr-left, .section-heading .hr-right{
         width:40px;
@@ -325,13 +324,6 @@ body, html {
     }
     .about-section p{
         font-size: 150%;
-    }
-    #logo{
-        height: 45%!important;
-        width: auto!important;
-    }
-    #order-here-button{
-        height: 10%!important;
     }
 }
 
