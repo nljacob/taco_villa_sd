@@ -104,23 +104,26 @@ body, html {
 
 .background-image #logo{
     margin-top: 14vh;
-    max-height: 70%;
-    width: auto;
+    max-height: 60%;
+    /* height: 60vh; */
+    /* height: 600px;
+    width: 700px; */
 }
 
-.background-image .icons{
-    font-size: 230%;
-    text-align: center;
-    margin-top: 1%;
+#order-button{
+    /* height: 90px; */
+    height: 10vh;
+    /* width: 250px; */
 }
 
 .background-image #order-link{
     margin-top: 3vh;
 }
 
-#order-button{
-    height: 90px;
-    width: auto;
+.background-image .icons{
+    font-size: 230%;
+    text-align: center;
+    margin-top: 1%;
 }
 
 /* SECTION HEADINGS */
@@ -273,10 +276,6 @@ body, html {
         padding-top: 4%;
         padding-bottom: 3%;
     }
-    #order-button{
-        height: 70px;
-        width: auto;
-    }
 }
 
 @media only screen and (max-width: 580px){
@@ -319,12 +318,7 @@ body, html {
     .footer{
         padding-top: 5%;
         padding-bottom: 4%;
-    }
-    #order-button{
-        height: 60px;
-        width: auto;
-    }
- 
+    } 
 }
 
 @media only screen and (max-width: 380px){
