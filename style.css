@@ -190,6 +190,10 @@ body, html {
     text-decoration: underline;
 }
 
+.catering-section a:hover{
+    color: rgb(164, 52, 46)
+}
+
 /* CONTACT SECTION */
 .contact-section p{
     text-align: center;
@@ -198,6 +202,10 @@ body, html {
 
 .contact-section a{
     text-decoration: underline;
+}
+
+.contact-section a:hover {
+    color: rgb(164, 52, 46)
 }
 
 /* ABOUT SECTION */
