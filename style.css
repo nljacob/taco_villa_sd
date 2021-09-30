@@ -4,7 +4,6 @@
     font-weight: 300;
 }
 
-
 a{
     color: black;
 }
@@ -95,7 +94,7 @@ body, html {
 
 /* MAIN HOMEPAGE */
 .background-image{
-    background-image: url("assets/home_page.png");
+    background-image: url("assets/home_page_2.png");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -103,22 +102,55 @@ body, html {
 }
 
 .background-image #logo{
-    margin-top: 14vh;
-    max-height: 58%;
+    margin-top: 15vh;
+    max-height: 52vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    width: auto;
 }
 
-#order-button{
-    height: 8vh;
-}
-
-.background-image #order-link{
+.background-image #arrows{
+    margin: 0;
     margin-top: 3vh;
+    padding: 0;
+    max-height: 25vh;
+    width: auto;
+    padding-right: 2vh;
+    height: auto;
 }
 
-.background-image .icons{
-    font-size: 230%;
+.background-image button{
+    width: 13.5vw;
+    height: auto;
+    margin-top: -12%;
+    background-color: #d66a18;;
+    border: none;
+    color: white;
     text-align: center;
-    margin-top: 1%;
+    font-size: 1.8vw;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    outline: none;
+    box-shadow: 0px 8px 15px #FFFFFF;
+}
+
+.background-image button:hover{
+    border: none;
+    box-shadow: 0 0 0 10px #d66a18, inset 0 0 0 1px #fff;
+    outline: none;
+    color: white;
+}
+
+.background-image button:active{
+    background-color: white;
+    color: #d66a18;
+    box-shadow: 0 0 0 10px #fff, inset 0 0 0 1px #d66a18;
+    border: 2px solid #d66a18;
+    outline: none;
+}
+
+.background-image #place-order-link{
+    text-decoration: none;
 }
 
 /* SECTION HEADINGS */
@@ -277,6 +309,25 @@ body, html {
     }
 }
 
+@media only screen and (max-width: 510px){
+    .section-heading h1{
+        font-size: 260%;
+    }
+    .catering-section p{
+        font-size: 170%;
+    }
+    .contact-section p{
+        font-size: 170%;
+    }
+    .about-section p{
+        font-size: 170%;
+    }
+    .footer{
+        padding-top: 5%;
+        padding-bottom: 4%;
+    } 
+}
+
 @media only screen and (max-width: 450px){
     .section-heading h1{
         font-size: 260%;
@@ -316,7 +367,6 @@ body, html {
         height: 7vh;
     }
 }
-
 
 @media only screen and (max-width: 315px){
     .section-heading .hr-left, .section-heading .hr-right{
