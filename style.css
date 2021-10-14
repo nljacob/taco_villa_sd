@@ -283,7 +283,11 @@ body, html {
         padding-top: 4%;
         padding-bottom: 3%;
     }
+    /* .background-image #arrows{
+        visibility: hidden;
+    } */
 }
+
 
 @media only screen and (max-width: 580px){
     .section-heading h1 {
